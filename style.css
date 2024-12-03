@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    margin: 1% 10%;
+}
+nav{
+    display: flex;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 2%;
+}
+  
+li{
+    float: left;
+}
+  
+li a{
+    display: block;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: #000000;
+}
+
+li a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.login{
+    margin: 2% 10%;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.login:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.5s;
+}
